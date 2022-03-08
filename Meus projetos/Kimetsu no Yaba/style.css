@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --font-destaque:'Kalam', cursive;
+    --font-padrao:Arial,Verdana,Helvetica,sans-serif;
+
+    --cor1:#274558;
+    --cor2:#CAD1DD;
+}
+
+nav{
+    background-color: var(--cor2);
+    padding: 10px;
+    
+
+}
+
+nav a{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+nav > #youtube{
+    margin-left: 10px;
+}
+
+nav h1 {
+    display: inline-block;
+    font-family: var(--font-destaque);
+    font-weight: normal;
+    margin-left: 20px;
+    text-align:left;
+    font-size: 1.6em;
+    
+}
+body{
+    background-color: var(--cor1);
+}
+
+article{
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px 10px 10px 10px;
+    min-width:400px;
+    max-width: 700px;
+    min-height: 600px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+article img{
+    width:100% ;
+    border-radius: 10px 10px 0px 0px;
+    margin-left: 0px;
+}
+
+article h1{
+    font-family: var(--font-destaque);
+    font-weight: normal;
+    padding:20px 5px 20px 20px ;
+    line-height: 1.4em;
+    max-width: 800px;
+    font-size: 1.6em;
+    margin-top: -10px;
+    text-align: left;
+    
+    
+}
+
+article h2{
+    font-family: var(--font-padrao);
+    font-weight: lighter;
+    padding: 8px;
+    margin-left: 10px;
+    margin-top: -10px;
+    line-height: 1.4em;
+    font-size: 1.2em;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+article h3{
+    padding: 8px;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.616);
+    font-size:1em;
+}
+
+a.underline{
+    text-decoration: underline #00ACF0 5px;
+    font-size: 0.9em;
+    color: black;
+    
+}
+
+article > h3 > abbr > a > img{
+    width: 30px;
+    margin-right: 1px;
+    border-radius: 50%;
+  
+}
+
+img#facebook{
+    margin-left: 350px;
+    
+}
+
+a.underline:hover{
+    background-color:#00ACF0;
+}
+
+h3#atencao{
+    background-color: #00ACF0;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    color: black;
+    font-weight:normal;
+    font-family: var(--font-padrao);
+    font-size: 1.1em;
+}
+
+article p{
+    
+    font-size: 1.1em;
+    line-height: 1.6em;
+    font-family: var(--font-padrao);
+    padding: 10px 20px 10px 20px;
+    text-align:justify;
+    color: #212121;
+}
+
+article  p  strong{
+    font-weight: bold;
+    color:black;
+    background-color: rgba(211, 211, 211, 0.164);
+    padding: 1px ;
+    
+}
+
+article ul{
+     list-style-position: inside;
+     padding: 10px;
+     font-size:1em;
+     font-family: var(--font-padrao);
+     text-decoration: underline #00ACF0 5px ;
+     font-weight: bolder;
+     margin-left: 10px;
+     
+}
+
+article ul li{
+    margin-bottom: 10px;  
+    line-height: 1.7em; 
+}
+
+h3.preaside{
+    font-size:1.1em;
+    font-weight: lighter;
+}
+
+aside.aside{
+    min-width: none;
+    max-width: 700px;
+    height: 120px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.336);
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+aside img{
+    width: 140px;
+    height: 120px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+aside a{
+    text-decoration: none;
+    
+}
+
+h3.h3aside{
+    margin-left: 150px;
+    margin-top: -120px;
+    font-weight: bold;
+    font-family: var(--font-destaque);
+    color: black;
+    font-size: 1.1em;
+    line-height: 1.7em;
+    text-align: left;
+   
+}
+
+img.img{
+    border-radius: 0px;
+}
+
+h3.Titulotanji{
+    padding: 20px 0px 10px 0px;
+    font-family: var(--font-destaque);
+    font-size: 1.7em;
+    color: black;
+    text-align: center;
+    font-weight: normal;
+}
+
+p.descricao{
+    text-align: center;
+    font-size: 0.9em;
+    font-family: var(--font-padrao);
+    color: rgba(163, 156, 156, 0.87);
+    font-weight: bold;
+}
+
+footer{
+    background-color:#102533;
+    height: 160px;
+}
+
+footer img{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;    
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    padding-top: 4px;
+}
+
+footer p a{
+    color: white;
+    text-decoration: none;
+}
+
+a#arroba{
+    color: #00ACF0;
+}
+
+
+
+
+
+
+
+

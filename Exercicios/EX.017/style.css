@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1em;
+    /*
+     Medidas absolutas
+     cm,mm,in(polegada),px(pixel),pt(ponto)e pc(pyka)
+
+     Medidas Relativas
+     em,ex,rem,vw,vh,%
+
+     16px geralmente é igual a 1em
+    */
+    color: black;
+    font-weight: bold;
+    /* lighter normal bold bolder */
+    /* weight(peso), width(largura),height(altura), 100 a 900  */
+    font-style: italic;
+    text-decoration: underline;
+}
+h1{
+    font: italic bolder 3em serif;
+    /* Shorthand font(não use virgula)
+    Ordem das configs
+
+    font-style->font weight->font-size->font-family.
+
+    font-family:serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic ;
+    */
+    color:black;
+    text-align: center;
+}
+h2{
+    font: bold 2em serif;
+    color:black;
+    text-align: center;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
